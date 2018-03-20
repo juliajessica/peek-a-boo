@@ -1,0 +1,12 @@
+$(function(){
+  $(".clickable").click(function(){
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
+  });
+  $(".fade-out-button").click(function(){
+    $("#walrus-img").fadeOut();
+  });
+  $(".fade-in-button").click(function(){
+    $("#walrus-img").fadeIn();
+  });
+});
